@@ -1,3 +1,6 @@
+# Purpose
+The purpose of this fork is to have a PDF library that allows clicking plain text (not annotated) URL-s.
+
 # Pdfium Android binding with Bitmap rendering
 Uses pdfium library [from AOSP](https://android.googlesource.com/platform/external/pdfium/)
 
@@ -7,13 +10,8 @@ Forked for use with [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfVie
 
 API is highly compatible with original version, only additional methods were created.
 
-## What's new in 1.9.0?
-* Updated Pdfium library to 7.1.2_r36
-* Changed `gnustl_static` to `c++_shared`
-* Update Gradle plugins
-* Update compile SDK and support library to 26
-* Change minimum SDK to 14
-* Add support for mips64
+## What's new in 1.10.0?
+* Add 16 KB page size
 
 ## Installation
 Add to _build.gradle_:
